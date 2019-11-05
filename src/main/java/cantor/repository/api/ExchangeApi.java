@@ -1,7 +1,7 @@
-package pl.sda.academy.javalon1.cantor.repository.api;
+package cantor.repository.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pl.sda.academy.javalon1.cantor.nbp.dto.exchange.RateExchange;
+import cantor.nbp.dto.exchange.RateExchange;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ public class ExchangeApi {
         objectMapper = new ObjectMapper();
     }
 
-    public String createUrlForNbp(String currency, String date) {
+    private String createUrlForNbp(String currency, String date) {
         return "http://api.nbp.pl/api/exchangerates/rates/c/" +
                 currency +
                 "/" + date +

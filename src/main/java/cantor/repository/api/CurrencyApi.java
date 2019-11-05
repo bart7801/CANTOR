@@ -1,7 +1,7 @@
-package pl.sda.academy.javalon1.cantor.repository.api;
+package cantor.repository.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pl.sda.academy.javalon1.cantor.nbp.dto.currencies.CurrencyExchange;
+import cantor.nbp.dto.currencies.CurrencyExchange;
 
 import java.io.IOException;
 

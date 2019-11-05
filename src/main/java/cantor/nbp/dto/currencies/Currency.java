@@ -1,4 +1,4 @@
-package pl.sda.academy.javalon1.cantor.nbp.dto.currencies;
+package cantor.nbp.dto.currencies;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
